@@ -142,29 +142,40 @@ main{
      main{ 
         display: flex; 
         flex-direction: column;
+        justify-content: center; 
         height: 100vh;
           
 
         & .informationCoffe{ 
-           text-align: center; 
-           height: 100vh; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 30px;
+            text-align: center;
+            height: 100vh; 
+
            
             & h1{
+                margin: 0 auto;
+                width: 80vw;
                 color: #fff;
-                margin-top: -50px;
+                margin-top: -30px;
                 font-size: 2.2rem; 
             }
 
-            & p{
-                margin: 0 auto;
-                width: 90vw; 
+            & p{ 
+                padding: 20px;
+                margin-left: 80px;
+                width: 100vw; 
                 font-size: 1.2rem; 
-                color: #302d2d;
+                color: #302d2d; 
             }
 
-            & button{
-                width: 150px;
-                margin-top: 280px;
+            & .botoes{
+                 display: flex;
+                 gap: 30px;
+                 margin: 0 auto;
+                 margin-top: 350px;
             }
         }
         
