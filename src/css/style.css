@@ -125,7 +125,7 @@ main{
     }
 }
 
-@media (max-width:350px){
+@media (max-width:450px){
 
     body{
         background-image: url('../img/imgMobile.jpg');
